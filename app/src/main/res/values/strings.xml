@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Pizza Chef Threads</string>
+    <string name="summary">Bindo Pizza Factory Summary</string>
+    <string name="factory_main_switch_warning">Factory Main Switch</string>
+    <string name="pizza_chef_0">Pizza Chef 0</string>
+    <string name="pizza_chef_1">Pizza Chef 1</string>
+    <string name="pizza_chef_2">Pizza Chef 2</string>
+    <string name="pizza_chef_3">Pizza Chef 3</string>
+    <string name="pizza_chef_4">Pizza Chef 4</string>
+    <string name="pizza_chef_5">Pizza Chef 5</string>
+    <string name="pizza_chef_6">Pizza Chef 6</string>
+    <string name="speed_2_seconds">Speed: 2 seconds</string>
+    <string name="speed_3_seconds">Speed: 3 seconds</string>
+    <string name="speed_4_seconds">Speed: 4 seconds</string>
+    <string name="speed_5_seconds">Speed: 5 seconds</string>
+    <string name="speed_6_seconds">Speed: 6 seconds</string>
+    <string name="speed_7_seconds">Speed: 7 seconds</string>
+    <string name="add_10_pizzas">(Add 10 pizzas)</string>
+    <string name="add_100_pizzas">(Add 100 pizzas)</string>
+    <string name="action_buttons">Action\nButtons:</string>
+    <string name="add_100">Add 100</string>
+    <string name="add_10">Add 10</string>
+</resources>
