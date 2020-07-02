@@ -3,15 +3,16 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    android:orientation="vertical">
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="18">
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="0dp"
         android:baselineAligned="false"
         android:orientation="horizontal"
-        android:weightSum="7">
+        android:layout_weight="14">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -79,7 +80,7 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/chef_0_recycler_view"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
+                android:layout_height="match_parent"
                 android:padding="4dp"
                 android:scrollbars="vertical" />
 
@@ -151,7 +152,7 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/chef_1_recycler_view"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
+                android:layout_height="match_parent"
                 android:padding="4dp"
                 android:scrollbars="vertical" />
 
@@ -223,7 +224,7 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/chef_2_recycler_view"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
+                android:layout_height="match_parent"
                 android:padding="4dp"
                 android:scrollbars="vertical" />
 
@@ -295,7 +296,7 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/chef_3_recycler_view"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
+                android:layout_height="match_parent"
                 android:padding="4dp"
                 android:scrollbars="vertical" />
 
@@ -366,7 +367,7 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/chef_4_recycler_view"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
+                android:layout_height="match_parent"
                 android:padding="4dp"
                 android:scrollbars="vertical" />
 
@@ -437,7 +438,7 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/chef_5_recycler_view"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
+                android:layout_height="match_parent"
                 android:padding="4dp"
                 android:scrollbars="vertical" />
 
@@ -509,7 +510,7 @@
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/chef_6_recycler_view"
                 android:layout_width="match_parent"
-                android:layout_height="110dp"
+                android:layout_height="match_parent"
                 android:padding="4dp"
                 android:scrollbars="vertical" />
 
@@ -518,8 +519,9 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="0dp"
         android:orientation="horizontal"
+        android:layout_weight="6"
         android:weightSum="7">
 
         <TableLayout
@@ -633,7 +635,6 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="4dp"
-                android:background="@drawable/pizza_add_background"
                 android:fontFamily="sans-serif"
                 android:paddingStart="16dp"
                 android:paddingTop="4dp"
@@ -664,7 +665,6 @@
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:layout_marginTop="4dp"
-                android:background="@drawable/pizza_add_background"
                 android:fontFamily="sans-serif"
                 android:paddingStart="12dp"
                 android:paddingTop="4dp"

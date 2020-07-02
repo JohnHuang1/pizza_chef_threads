@@ -10,6 +10,7 @@
     <style name="NoPadding.Button" parent="Widget.AppCompat.Button">
         <item name="android:minHeight">0dp</item>
         <item name="android:minWidth">0dp</item>
+        <item name="android:background">@drawable/accent_ripple</item>
     </style>
 
 </resources>
